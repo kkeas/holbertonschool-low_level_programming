@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*prints text and returns 0*/
+/**
+ *prints text and returns 0
+ */
 
 int main(void)
 {
