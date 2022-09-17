@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 /*
- *main- assigns a number to n and executes and prints
+ *main - assigns a number to n and executes and prints it
  *Return: always 0 if exited properly, otherwise non-zero
  */
 
