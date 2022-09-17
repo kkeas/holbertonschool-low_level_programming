@@ -4,11 +4,10 @@
 
 /* more headers goes there */
 /*
- *main: assigns a number to n and executes and prints
+ *main- assigns a number to n and executes and prints
  *Return: always 0 if exited properly, otherwise non-zero
  */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
