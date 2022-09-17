@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *function main- generates random number
- *Return: always 0 if exited properly, otherwise not zero
+/**
+ * main- generates random number
+ * Return: always 0 if exited properly, otherwise not zero
  */
 
 int main(void)

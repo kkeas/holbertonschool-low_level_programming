@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  *Main - assigns a number to n and executes and prints it
  *Return: always 0 if exited properly, otherwise non-zero
  */
