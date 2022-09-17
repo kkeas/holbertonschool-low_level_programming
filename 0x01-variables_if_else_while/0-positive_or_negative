@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include (stdio.h>
-/* more headers goes there */
+/**
+* Main- assigns a random number to int n
+*Return: always zero if exited properly, nonzero otherwise
+**/
 
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -16,5 +19,6 @@ int main(void)
 	   printf(%d is zero\n", n);
 	else if (n < 0)
 	     printf(%d is negative\n", n);
+	fi
 	return (0);
 }
