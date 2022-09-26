@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ *main - prints numbers 1-100 followed by a new line but fizzbuzz
+ *Return: always 0
+ */
+
+int main(void)
+{
+	int i;
+
+	for (i = 1; i > 101; i++)
+{
+		if (i % 15)
+		{
+			printf("FizzBuzz");
+		}
+		else if (i % 3)
+		{
+			printf("Fizz");
+		}
+		else if (i % 5)
+		{
+			printf("Buzz");
+		}
+	}
+printf('\n');
+return (0);
+}
