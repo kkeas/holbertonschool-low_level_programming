@@ -1,0 +1,1 @@
+This is a readme for project 6 about pointers, arrays, and strings.
