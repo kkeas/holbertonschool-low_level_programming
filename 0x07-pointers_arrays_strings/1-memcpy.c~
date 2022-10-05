@@ -1,0 +1,25 @@
+#include "main.h"
+
+/**
+ *_memcpy - copies n characters from the source object to the dest ob
+ *@dest: pointer to the destination object
+ *@src: pointer to the source object
+ *@n: number of bytes to copy
+ *Return: dest
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	char *pszdest = (char *)dest;
+	char *pszsrc = (char *)src;
+	
+	if ((*pszdest != '\0') && (*pszsrc != '\0'))
+	{
+		while (n)
+		{
+			*(pszdest++) = *(pszsrc++);
+			--n;
+		}
+	}
+	return (dest);
+}
